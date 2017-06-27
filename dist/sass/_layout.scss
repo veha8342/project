@@ -1,0 +1,96 @@
+//файл в котором будут описаны стили для основных 
+	//повторяющихся елементов таких как шапка футер повторяющихся блоков
+@import "custom-variables";
+
+.container{
+	width: $desktopContainerWidth;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.row{
+	margin: 0 -10px;
+}
+.icon{
+	display: inline-block;
+	
+}
+//form style
+.form-control{
+	display: inline-block;
+	height: 57px;
+	padding: 0 15px;
+	border-radius: 2px;
+	color: $formControlTextColor;
+	font-size: 16px;
+}
+.form-btn{
+	display: inline-block;
+	height: 57px;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: 600;
+	background: $generalOrange;
+	padding: 0 27px;
+	&:hover{
+		background: #d0551e;
+	}	
+}
+
+.simple-text-block{
+	padding: 27px 0;
+	font-size: 18px;
+	color: $simpleTextColor;
+	border-bottom: 2px solid #3c575a;
+}
+//standart button
+.btn{
+	display: inline-block;
+	height: 46px;
+	line-height: 46px;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 16px;
+	padding: 0 25px;
+	&.white-btn{
+		border-color: #fff;
+		color: #fff;
+		&:hover{
+			background: #fff;
+			color: $generalBlue;
+		}
+	}
+	&.orange-btn{
+		border-color: $generalOrange;
+		color: $generalOrange;
+		&:hover{
+			background: $generalOrange;
+			color: #fff;
+		}
+	}
+}
+.header{
+	height: $desktopHeaderHeight;
+	width: 100%;
+	background: #fff;
+
+	.logo{
+		float: left;
+		margin-top: 15px;
+	}
+	.header-nav{
+		margin-top: 25px;
+		float: right;
+		li{
+			display: inline-block;
+			padding-left: 25px;
+			a{
+				font-size: 16px;
+				&:hover{
+					color: $generalOrange;
+				}
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,33 @@
+// файл в котором хранятся переменные цвета шрифты любые значения css
+	// выносим те вещи которые хотим переиспользовать 
+	//или изменить через время
+
+// general font family
+//все переменные начыинаются с доллара $
+$generalFont: 'Open Sans';
+// general font size
+$generalFontSize: 12px;
+// general text color
+$generalColor: #000;
+// desktop container width
+$desktopContainerWidth: 1060px;
+// desktop header height
+$desktopHeaderHeight: 80px;
+//STANDART COLOR
+// general orange color
+$generalOrange: #f26523;
+$generalBlue: #30436b;
+// body bg
+$bodyBg: #fff;
+//general form elements color
+$formControlTextColor: #7e878d;
+//general orange hover
+$generalOrangeHover: #d0551e;
+//general color for simple text
+$simpleTextColor: #2f2f33;
+
+//grey bg
+$greyBg: #deeaea;
+$blueBg: $generalBlue;
+$whiteBg: #fff;
+$orangeBG: $generalOrange;
