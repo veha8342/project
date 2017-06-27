@@ -434,6 +434,7 @@ button {
   .country-list .country-nav {
     float: right; }
     .country-list .country-nav .block {
+      float: left;
       width: 33.3333%; }
       .country-list .country-nav .block a {
         display: block;
