@@ -173,14 +173,15 @@
 		}
 		.country-nav{
 				float: right;
-			.block>a{
-
+			.block{
 				width: 33.3333%;
+				a{
 				display: block;
 				margin-bottom: 10px;
 			}
 		}
 	}
+}	
 .btn-row{
 	text-align: center;
 	.btn{

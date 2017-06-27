@@ -433,10 +433,11 @@ button {
     float: left; }
   .country-list .country-nav {
     float: right; }
-    .country-list .country-nav .block > a {
-      width: 33.3333%;
-      display: block;
-      margin-bottom: 10px; }
+    .country-list .country-nav .block {
+      width: 33.3333%; }
+      .country-list .country-nav .block a {
+        display: block;
+        margin-bottom: 10px; }
 
 .btn-row {
   text-align: center; }
