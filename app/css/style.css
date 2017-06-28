@@ -421,24 +421,39 @@ button {
 .btn-wrap {
   padding: 60px 0 70px 0; }
 
+.country-block {
+  margin-bottom: 60px; }
+
 .country-list {
-  padding: 20px 0;
   -webkit-border-radius: 1px;
           border-radius: 1px;
   overflow: hidden;
-  background: #f26523; }
+  background: #f26523;
+  text-align: center; }
   .country-list .earth-icon {
+    padding: 20px 0;
     width: 33.33333%;
-    margin-left: 30px;
     float: left; }
+    .country-list .earth-icon > span {
+      vertical-align: middle;
+      margin-left: 30px;
+      font-size: 20px;
+      color: #fff; }
   .country-list .country-nav {
+    width: 50%;
     float: right; }
     .country-list .country-nav .block {
+      padding: 32px 0;
       float: left;
-      width: 33.3333%; }
+      width: 33.3333%;
+      border-left: 1px solid grey; }
+      .country-list .country-nav .block span {
+        color: grey; }
       .country-list .country-nav .block a {
         display: block;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        color: #fff;
+        font-size: 16px; }
 
 .btn-row {
   text-align: center; }
