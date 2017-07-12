@@ -35,6 +35,31 @@
 		background: #d0551e;
 	}	
 }
+input[type="checkbox"]{
+	display: none;
+	&+label{
+		display: inline-block;
+		cursor: pointer;
+		margin-right: 50px;
+		&::before{
+			content:'';
+			display: inline-block;
+			width: 17px;
+			height: 18px;
+			background: #fff;
+			border-radius: 2px;
+			margin-right: 14px;
+		}
+}
+&:checked{
+	& + label{
+		color: red;
+		&::before{
+			background: #fff url('../../app/img/chekbox-checked.png') center no-repeat;
+		}
+	}
+}
+}
 
 .simple-text-block{
 	padding: 27px 0;
@@ -90,7 +115,11 @@
 					color: $generalOrange;
 				}
 			}
-			
+			.search{
+				width: 200px;
+				border: 2px solid black;
+				display: none;
+			}
 		}
 	}
 }
